@@ -13,9 +13,9 @@
       <label for="max">Max:</label>
       <input type="number" v-model.number="max" id="max" />
     </div>
-    <button @click="generateRandomNumber">Generate Random Number</button>
+    <button @click="generateRandomNumber">Genera numero casuale</button>
     <div class="result-wrapper" v-if="randomNumber !== null">
-      <div class="result">Random Number: <br> 
+      <div class="result">Numero Vincitore: <br> 
       <span class="result-number"> ✨ {{ randomNumber }} ✨</span> </div>
     </div>
   </div>
